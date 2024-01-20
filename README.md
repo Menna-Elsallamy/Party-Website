@@ -6,5 +6,5 @@ Discover[Party] The Party Invitation website combines HTML, CSS, and jQuery for 
 ![Capture-One](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture1.PNG)
 ![Capture-Two](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture2.PNG)
 ![Capture-Three](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture3.PNG)
-![Capture-Four](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture4.PNG)
+![Capture-Four](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture%204.PNG)
 ![Capture-Five](https://github.com/Menna-Elsallamy/Party-Website/blob/main/WebsiteScreenshots/Capture5.PNG)
