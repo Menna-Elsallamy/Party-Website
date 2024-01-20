@@ -1,0 +1,241 @@
+.birthday-Theme{
+    background-image: url(../images/pngtree-birthday-celebration-black-gold-background-stars-decorative-balloons-image_1074440.jpg);
+    height: 100vh;
+    background-position: center ;
+    background-size: cover;
+}
+
+  @-webkit-keyframes rotateDiscoBall {
+      0% {-webkit-transform: rotateX(90deg) rotateZ(0deg) rotate(0deg); }
+      100% {-webkit-transform: rotateX(90deg) rotateZ(360deg) rotate(0deg); }
+  }
+  
+  @keyframes rotateDiscoBall {
+      0% {transform: rotateX(90deg) rotateZ(0deg) rotate(0deg); }
+      100% {transform: rotateX(90deg) rotateZ(360deg) rotate(0deg); }
+  }
+  
+  @-webkit-keyframes rotateDiscoBallMiddle {
+      0% {-webkit-transform: rotateX(90deg) rotateY(0deg) rotate(0deg); }
+      100% {-webkit-transform: rotateX(90deg) rotateY(-360deg) rotate(0deg); }
+  }
+  
+  @keyframes rotateDiscoBallMiddle {
+      0% {transform: rotateX(90deg) rotateY(0deg) rotate(0deg); }
+      100% {transform: rotateX(90deg) rotateY(-360deg) rotate(0deg); }
+  }
+  
+  @-webkit-keyframes reflect {
+      0% {-webkit-filter: brightness(60%);}
+      50% {-webkit-filter: brightness(120%);}  
+      100% {-webkit-filter: brightness(90%);}  
+  }
+  
+  @keyframes reflect {
+      0% {opacity: 1;}
+      50% {opacity: 0.4;}  
+      100% {opacity: 1;}  
+  }
+  
+  #discoBall {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -50px;
+    -webkit-animation: rotateDiscoBall 2s linear infinite;
+    animation: rotateDiscoBall 2s linear infinite;
+  }
+  
+  #discoBallLight {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    margin-left: -50px; 
+    border-radius: 100%;
+    background-color: white; 
+    opacity: 0.2;
+    -webkit-filter: blur(20px);
+  }
+  
+  .square {
+    -webkit-transform-style: preserve-3d;
+    transform-style: preserve-3d;	
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    width: 6px;
+    height: 6px;
+    position: absolute;
+    transform: rotateX(90deg) rotateY(0deg) translateZ(0px);
+  }
+  
+  #discoBallMiddle { 
+    height: 100%;
+    border-radius: 100%;
+    background-color: #111;
+    position: absolute;
+    background: -webkit-linear-gradient(top, #111, #333);
+    background: -moz-linear-gradient(top, #111, #333);
+    background: linear-gradient(top, #111, #333);
+    -webkit-animation: rotateDiscoBallMiddle 2s linear infinite;
+    animation: rotateDiscoBallMiddle 2s linear infinite;
+  }
+a{
+  text-decoration: none;
+  font-size: 2rem;
+  margin-left: 6px;
+  margin-right: 6px;
+  color: gold;
+}
+ 
+li{
+  list-style: none;
+}
+h1,h2{
+    font-family: "Dancing Script", cursive;
+    background-color: transparent;
+    font-size: 60px;
+}
+#sideBar{
+      /* background-color: tomato; */
+      top: 0;
+      bottom: 0;
+      position: fixed;
+      z-index: 10000;
+}
+.self{
+    align-self: flex-start;
+    background-color: goldenrod;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    transform: translateY(100%);
+}
+  .sideBar-inner{
+    background-color: black;
+    padding: 10px;
+  }
+  #loadingscreen{
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background-color: #333;
+    z-index: 99999;
+    position: fixed;
+}
+.lds-heart {
+    display: inline-block;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    transform: rotate(45deg);
+    transform-origin: 40px 40px;
+  }
+  .lds-heart div {
+    top: 32px;
+    left: 32px;
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+    animation: lds-heart 1.2s infinite cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+  .lds-heart div:after,
+  .lds-heart div:before {
+    content: " ";
+    position: absolute;
+    display: block;
+    width: 32px;
+    height: 32px;
+    background: #fff;
+  }
+  .lds-heart div:before {
+    left: -24px;
+    border-radius: 50% 0 0 50%;
+  }
+  .lds-heart div:after {
+    top: -24px;
+    border-radius: 50% 50% 0 0;
+  }
+  @keyframes lds-heart {
+    0% {
+      transform: scale(0.95);
+    }
+    5% {
+      transform: scale(1.1);
+    }
+    39% {
+      transform: scale(0.85);
+    }
+    45% {
+      transform: scale(1);
+    }
+    60% {
+      transform: scale(0.95);
+    }
+    100% {
+      transform: scale(0.9);
+    }
+  }
+  body{
+    overflow: hidden;
+  }
+  .details{
+    background-color: palegoldenrod;
+    cursor: pointer;
+  }
+  .squareee{
+    height: 200px;
+    width: 200px;
+    background-color: aqua;
+  }
+  .duration{
+background-image: url(../images/lets-party-text-font-neon-260nw-2371947801.webp);
+background-position: center center;
+background-size: cover;
+  }
+  /* .layerthree{
+    background-color:rgba(9, 83, 241, 0.521);
+  } */
+  #Contact > div > div > div > div > div > ul{
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .socialicon{
+    height: 1.75rem;
+    width: 1.75rem;
+  }
+  #Contact > div > div > div > div > div > h2{
+    position: relative;
+  }
+  #Contact > div > div > div > div > div > h2::after{
+    content: "";
+    background-color: blue;
+    height: 2px;
+    width: 100px;
+   position: absolute;
+   left:0;
+   bottom:0;
+  }
+   #Contact > div > div > div > div > div:nth-child(1) > h2{
+    position: relative;
+  }
+  #Contact > div > div > div > div > div:nth-child(1) > h2::after{
+    content: "";
+    background-color: blue;
+    height: 2px;
+    width: 100px;
+   position: absolute;
+   left:0;
+   bottom:0;
+  } 
+  body > footer{
+    background-color:#0062d3;
+  }
